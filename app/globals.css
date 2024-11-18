@@ -4,6 +4,11 @@
 
 :root {
   --background: #ffffff;
+  scroll-behavior: smooth;
+  --headline-color: #354860;
+}
+::-webkit-scrollbar{
+  display: none;
 }
 
 

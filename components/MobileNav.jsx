@@ -59,7 +59,7 @@ const MobileNav = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <nav className="fixed bottom-0 w-full right-0">
+    <nav className="fixed z-50 bottom-0 w-full right-0">
       {/* menu content */}
       <div>
         {menu ? (

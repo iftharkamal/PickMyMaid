@@ -1,59 +1,11 @@
 import AddBanner from "@/components/AddBanner"
+import AvailableField from "@/components/AvailableField"
 import Image from "next/image"
 import {CiSearch} from "react-icons/ci"
+import Testimonials from "@/components/Testimonials"
 
 const Home = () => {
   return (
-    // <section className="py-4 flex flex-col mx-auto">
-    //   <div className="flex flex-col lg:flex-row">
-
-      
-    //   <div className="  mx-auto">
-    //   {/* Text section */}
-    //   <div className="flex flex-col  md:items-start md:text-left ">
-    //    <h1 className="text-[25px]  leading-8 max-w-[380px] font-bold text-center mb-2">Are you looking for a Maid or Nanny in UAE?</h1>
-    //    <p className="text-base max-w-[370px] text-center">Register now, and save additional charges that you spend on agencies.</p>
-    //   {/* desktop and tab input area */}
-    //   <div className="hidden  md:flex gap-3 md:w-[150%]">
-    //     <input className="w-full border border-inherit rounded-md py-3 px-2 "  type="text"  placeholder="Search by type eg.Cook Cleaning" />
-    //     <button className="flex gap-2 text-lg w-full items-center justify-center rounded-md py-3 px-2 bg-orange-600 md:w-[220px]"><CiSearch/><span>Search</span></button>
-    //   </div>
-    //   </div>
-    //    {/*mobile input area */}
-    //    <div className="flex flex-col gap-4 items-center relative min-w-[500px] top-[390px] z-10 md:hidden">
-    //     <div className="w-full" >
-    //     <input className="w-full border border-inherit rounded-md py-3 px-2" type="text" placeholder="Search by type eg.Cook Cleaning"/>
-    //     </div>
-    //     <button className="flex gap-2 text-white text-lg w-full items-center justify-center rounded-md py-3 px-2 bg-orange-600"><CiSearch/><span>Search</span></button>
-    //    </div>
-
-    //   </div>
-
-
-
-
-
-
-
-
-    //   {/* image section */}
-
-    //   {/* mobile img */}
-    //   <div className="relative bottom-20 mx-auto -z-10 md:hidden">
-    //    <Image src="/assets/pickmymaidhomepic.png" alt="homepic" width={400} height={400} className=" z-10 "/>
-    //   </div>
-
-    //   {/* desktop image */}
-    //   <div>
-    //    <Image src="/assets/pickmymaidhomepic.png" alt="homepic" width={400} height={400} className="hidden lg:block"/>
-    //   </div>
-
-
-    //   </div>
-    //   <AddBanner/>
-    // </section>
-    
-
     <section className="py-4" >
       <div>
 
@@ -67,7 +19,7 @@ const Home = () => {
           </div>
          
           {/* image */}
-          <Image src="/assets/pickmymaidhomepicmobile.png" alt="home-bg-pic" width={350} height={300} className="relative -z-10 left-2 mx-auto"/>
+          <Image src="/assets/pickmymaidhomepicmobile.png" alt="home-bg-pic" width={350} height={300} className="relative -z-10 left-2 mx-auto w-auto h-auto"/>
 
           {/* input & btn field */}
            <div className="z-20 flex flex-col items-center w-full px-2 py-3 gap-3">
@@ -93,13 +45,15 @@ const Home = () => {
 
               {/* image side */}
             <div>
-              <Image src="/assets/pickmymaidhomepic.png" alt="home-bg-pic" width={500} height={100}/>
+              <Image src="/assets/pickmymaidhomepic.png" alt="home-bg-pic" width={500} height={100} className="w-auto h-auto"/>
             </div>
 
           </div>
 
         </div>
         <AddBanner/>
+        <AvailableField/>
+        <Testimonials/>
     </section>
   )
 }
