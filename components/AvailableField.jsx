@@ -1,5 +1,6 @@
 import Image from "next/image"
 import MaidsBox from "./MaidsBox"
+import Title from "./Title"
 
 
 
@@ -8,7 +9,7 @@ const AvailableField = () => {
     <section className="p-2 lg:p-5 mb-10">
         <div>
             <div className="flex flex-col items-center justify-center mb-5">
-              <h3 className="text-2xl lg:text-5xl font-bold mb-3 text-[var(--headline-color)]">Available Maids / Nannies in UAE</h3>
+                <Title name="available maids / nannies in UAE"/>
               <p className="bg-orange-600 text-white p-1 rounded-sm flex gap-2">9 <span>1</span><span>0</span></p>  
             </div>
 

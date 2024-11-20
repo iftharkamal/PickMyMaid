@@ -10,7 +10,7 @@ const Header = () => {
     <header className="flex justify-between items-center shadow-lg w-full xl:px-[40px] py-3 mx-auto ">
        {/* logo */}
        <Link href="/"> 
-        <Image src="/assets/pickmymaidLogo.png" alt="logo" width={200} height={200} className="cursor-pointer w-auto h-auto" />
+        <Image src="/assets/pickmymaidLogo.png" alt="logo" width={200} height={200} className="cursor-pointer w-auto h-auto " />
       </Link>
 
       {/* desktop nav and buttons */}

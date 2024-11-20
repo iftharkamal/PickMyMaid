@@ -3,6 +3,10 @@ import AvailableField from "@/components/AvailableField"
 import Image from "next/image"
 import {CiSearch} from "react-icons/ci"
 import Testimonials from "@/components/Testimonials"
+import AccessPlans from "@/components/AccessPlans"
+import TestimonialsUsers from "@/components/TestimonialsUsers"
+import AboutUs from "@/components/AboutUs"
+import Questions from "@/components/Questions"
 
 const Home = () => {
   return (
@@ -54,6 +58,10 @@ const Home = () => {
         <AddBanner/>
         <AvailableField/>
         <Testimonials/>
+        <AccessPlans/>
+        <TestimonialsUsers/>
+        <AboutUs/>
+        <Questions/>
     </section>
   )
 }
