@@ -6,7 +6,7 @@ import Testimonials from "@/components/Testimonials"
 import AccessPlans from "@/components/AccessPlans"
 import TestimonialsUsers from "@/components/TestimonialsUsers"
 import AboutUs from "@/components/AboutUs"
-import Questions from "@/components/Questions"
+import Questions from "@/components/FAQ"
 
 const Home = () => {
   return (
