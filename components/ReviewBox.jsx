@@ -6,6 +6,10 @@ import "swiper/swiper.min.css";
 import "swiper/css/autoplay";
 import React, { createContext } from "react";
 
+
+
+
+
 const reviews = [
   {
     words:
@@ -65,7 +69,9 @@ const reviews = [
   },
 ];
 
-const TestimonialUsersBox = () => {
+const ReviewBox = () => {
+  
+
   return (
     <Swiper
       slidesPerView={1}
@@ -103,4 +109,4 @@ const TestimonialUsersBox = () => {
   );
 };
 
-export default TestimonialUsersBox;
+export default ReviewBox;

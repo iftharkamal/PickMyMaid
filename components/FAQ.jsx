@@ -3,7 +3,7 @@ import Title from "./Title";
 
 const FAQ = () => {
   return (
-    <div>
+    <div className="py-10 mb-10">
       <div>
         <Title
           name="frequently asked questions"

@@ -1,11 +1,11 @@
 
 import Title from "./Title";
 
-import TestimonialUsersBox from "./TestimonialUsersBox";
+import ReviewBox from "./ReviewBox";
 
 
 
-const TestimonialsUsers = () => {
+const Review = () => {
   return (
     <div className="py-16 mt-16">
       <div className="flex flex-col items-center ">
@@ -13,11 +13,11 @@ const TestimonialsUsers = () => {
         <p className="text-black text-base lg:text-xl font-medium px-4 lg:-mt-5 mb-5 text-center ">
           Register Now - Get Access to 1500+ Maids profiles who're ready join
         </p>
-        <img src="/assets/google.png" alt="googleReview" className="w-[200px]" />
+        <img src="/assets/google.png" alt="" className="w-[200px]" />
       </div>
-      <TestimonialUsersBox/>
+      <ReviewBox/>
     </div>
   );
 };
 
-export default TestimonialsUsers;
+export default Review;

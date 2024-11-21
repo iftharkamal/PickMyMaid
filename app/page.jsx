@@ -4,9 +4,10 @@ import Image from "next/image"
 import {CiSearch} from "react-icons/ci"
 import Testimonials from "@/components/Testimonials"
 import AccessPlans from "@/components/AccessPlans"
-import TestimonialsUsers from "@/components/TestimonialsUsers"
+import ReviewBox from "@/components/ReviewBox"
 import AboutUs from "@/components/AboutUs"
 import Questions from "@/components/FAQ"
+import MaidsBox from "@/components/MaidsBox"
 
 const Home = () => {
   return (
@@ -59,9 +60,25 @@ const Home = () => {
         <AvailableField/>
         <Testimonials/>
         <AccessPlans/>
-        <TestimonialsUsers/>
+        <ReviewBox/>
         <AboutUs/>
         <Questions/>
+
+
+        <div className="px-8 lg:px-36 mb-10">
+        <div className="bg-[#ffebde] p-8 flex flex-col lg:flex-row justify-between  gap-5 lg:gap-10 rounded-3xl">
+          <div className="flex flex-col items-start justify-center gap-3 order-2 lg:order-none">
+            <h2 className="text-[#354860] text-[1rem] md:text-[1.2rem] lg:text-[2rem] font-bold leading-tight">Unlock the power of expert Maid care - simplify your life with ease</h2>
+            <p className="text-[#595959] text-[0.8rem] md:text-[0.9rem] lg:text-[1rem]">Transform your Maid search today - our innovative platform makes finding the perfect caregiver easy and hassle-free!</p>
+            <button className="bg-[#ff7442] px-3 py-4 rounded-lg text-[0.8rem] lg:text-[1rem] font-semibold text-white">View More Maids</button>
+          </div>
+          <div className="order-1 lg:order-none flex items-center justify-center">
+          <iframe className="rounded-lg  top-0 left-0 w-[280px] h-[165px] md:w-[420px] md:h-[230px] lg:w-[556px] lg:h-[333px]" src="https://www.youtube.com/embed/IsDePiBUyhc" title="Discover the #1 platform in the UAE for finding maid, nanny, cook, Driver,Caregiver with PickMyMaid." frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          </div>
+        </div>
+        </div>
+
+
     </section>
   )
 }

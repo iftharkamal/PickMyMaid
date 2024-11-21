@@ -18,12 +18,12 @@ const links = [
     
     {
         name: "Pricing",
-        path: "./Pricing",
+        path: "/Pricing",
     },
     
     {
         name: "How it works",
-        path: "/howitworks",
+        path: "/How",
     },
     
     {
