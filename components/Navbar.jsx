@@ -23,22 +23,22 @@ const links = [
     
     {
         name: "How it works",
-        path: "/How",
+        path: "/Howitworks",
     },
     
     {
-        name: "About us",
-        path: "/aboutus",
+        name: "About Us",
+        path: "/AboutUs",
     },
     
     {
         name: "Favourites",
-        path: "/favourites",
+        path: "/Favourites",
     },
     
     {
         name: "Contact Us",
-        path: "/contactus",
+        path: "/ContactUs",
     },
     
 ]

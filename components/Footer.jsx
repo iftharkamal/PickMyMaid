@@ -33,7 +33,7 @@ const Footer = () => {
             <a className="hover:underline" href="/">Home</a>
             <a className="hover:underline" href="">Blogs</a>
             <a className="hover:underline" href="">Find Workers</a>
-            <a className="hover:underline" href="">contact us</a>
+            <a className="hover:underline" href="/ContactUs">contact us</a>
             <a className="hover:underline" href="">terms and condition</a>
             <a className="hover:underline" href="">privacy policy</a>
             </div>
