@@ -2,14 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+
 :root {
   --background: #ffffff;
   scroll-behavior: smooth;
   --headline-color: #354860;
+  --padding-page: 8rem;
 }
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
   display: none;
-}
+} */
 
 
 

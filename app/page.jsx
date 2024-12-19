@@ -4,10 +4,9 @@ import Image from "next/image"
 import {CiSearch} from "react-icons/ci"
 import Testimonials from "@/components/Testimonials"
 import AccessPlans from "@/components/AccessPlans"
-import ReviewBox from "@/components/ReviewBox"
 import AboutUs from "@/components/AboutUs"
 import Questions from "@/components/FAQ"
-import MaidsBox from "@/components/MaidsBox"
+import Review from "@/components/Review"
 
 const Home = () => {
   return (
@@ -16,7 +15,7 @@ const Home = () => {
 
 
         {/* mobile view */}
-        <div className="md:hidden w-full">
+        <div className="md:hidden w-full mt-24">
            
           <div className="relative z-10 px-2 text-center"> 
             <h1 className="text-3xl font-bold">Are you looking for a Maid or Nanny in UAE?</h1>
@@ -36,7 +35,7 @@ const Home = () => {
 
 
           {/* desktop and tab view */}
-          <div className="hidden md:flex gap-5 justify-center p-5">
+          <div className="hidden md:flex md:justify-between lg:px-[var(--padding-page)] gap-[10%] justify-center p-5 mt-20 ">
 
             {/* text side */}
           <div className="w-[650px] my-auto"> 
@@ -50,7 +49,7 @@ const Home = () => {
 
               {/* image side */}
             <div>
-              <Image src="/assets/pickmymaidhomepic.png" alt="home-bg-pic" width={500} height={100} className="w-auto h-auto"/>
+              <Image src="/assets/pickmymaidhomepic.png" alt="home-bg-pic" width={350} height={100} className="md:w-[500px] lg:w-[580px]"/>
             </div>
 
           </div>
@@ -60,12 +59,12 @@ const Home = () => {
         <AvailableField/>
         <Testimonials/>
         <AccessPlans/>
-        <ReviewBox/>
+        <Review/>
         <AboutUs/>
         <Questions/>
 
 
-        <div className="px-8 lg:px-36 mb-10">
+        <div className="px-8 lg:px-[var(--padding-page)] mb-10">
         <div className="bg-[#ffebde] p-8 flex flex-col lg:flex-row justify-between  gap-5 lg:gap-10 rounded-3xl">
           <div className="flex flex-col items-start justify-center gap-3 order-2 lg:order-none">
             <h2 className="text-[#354860] text-[1rem] md:text-[1.2rem] lg:text-[2rem] font-bold leading-tight">Unlock the power of expert Maid care - simplify your life with ease</h2>

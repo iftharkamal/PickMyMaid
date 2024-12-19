@@ -7,7 +7,7 @@ import ReviewBox from "./ReviewBox";
 
 const Review = () => {
   return (
-    <div className="py-16 mt-16">
+    <div className="py-16 mt-16 px-4 lg:px-[var(--padding-page)]">
       <div className="flex flex-col items-center ">
         <Title name="testimonial from our users" />
         <p className="text-black text-base lg:text-xl font-medium px-4 lg:-mt-5 mb-5 text-center ">

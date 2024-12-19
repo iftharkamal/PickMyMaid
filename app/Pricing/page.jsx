@@ -3,7 +3,7 @@ import React from 'react'
 
 const Pricing = () => {
   return (
-    <div>
+    <div className='pt-20'>
       <AccessPlans/>
     </div>
   )

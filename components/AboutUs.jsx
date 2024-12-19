@@ -3,7 +3,7 @@ import Title from './Title'
 
 const AboutUs = () => {
   return (
-    <div className='p-4  mb-20'>
+    <div className='p-4  mb-20 lg:px-[var(--padding-page)]'>
       <Title name="about us"/>
       <div className='flex flex-col md:flex-row items-center justify-between lg:py-4 lg:px-20 w-full md:gap-14 lg:gap-32'>
         {/* text */}

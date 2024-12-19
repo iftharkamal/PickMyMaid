@@ -13,7 +13,7 @@ const links = [
     
     {
         name: "Search Maid/Nanny",
-        path: "/search",
+        path: "/SearchMaid",
     },
     
     {

@@ -5,15 +5,28 @@ import Title from "./Title"
 
 
 const AvailableField = () => {
+  
+
   return (
-    <section className="p-2 lg:p-5 mb-10">
+    <section className="p-2 lg:p-5 mb-10 lg:pt-24 lg:px-[var(--padding-page)]">
         <div>
             <div className="flex flex-col items-center justify-center mb-5">
                 <Title name="available maids / nannies in UAE"/>
-              <p className="bg-orange-600 text-white p-1 rounded-sm flex gap-2">9 <span>1</span><span>0</span></p>  
+              <div className="flex items-center gap-1 mb-4">
+                <div className=" w-8 bg-[#ff7442] rounded-sm">
+                   <h2 className=" flex items-center justify-center w-full h-full inset-0 text-[1.2rem] lg:text-[1.7rem] text-white  font-medium">9</h2>
+                </div>
+                <div className=" w-8 bg-[#ff7442] rounded-[2px]">
+                   <h2 className=" flex items-center justify-center w-full h-full inset-0 text-[1.2rem] lg:text-[1.7rem] text-white font-medium">1</h2>
+                </div>
+                <div className=" w-8 bg-[#ff7442] rounded-[2px]">
+                   <h2 className=" flex items-center justify-center w-full h-full inset-0 text-[1.2rem] lg:text-[1.7rem] text-white font-medium">0</h2>
+                </div>
+              </div>
+
             </div>
 
-            <div className="bg-black/5 p-2 flex flex-col items-center justify-center rounded-t-lg py-5">
+            <div className="bg-black/5  flex flex-col items-center justify-center rounded-t-lg py-5 ">
 
                  {/* workers country-wise section */}
                 <div className="bg-white p-2 rounded-lg flex flex-wrap gap-2 lg:gap-6 whitespace-nowrap items-center justify-center max-w-[620px] lg:max-w-[1200px] lg:px-10 lg:py-4 mb-5">
@@ -59,9 +72,11 @@ const AvailableField = () => {
                 <h4 className="text-black/80 px-2 py-2 rounded-md bg-white font-bold mb-5">Updated on November 17, 2024</h4>
 
             </div>
+
+
                 {/* workers details box section */}
                 <div className="bg-black/5 pb-4 rounded-b-lg">
-                <div className="mb-4 p-4">
+                <div className="mb-4 py-5 px-9">
                 <MaidsBox/>
                 </div>
 
